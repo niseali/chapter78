@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href=".css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nissedigital</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      nav ul {
+        display: flex;
+        gap: 8px;
+        float: left;
+        list-style-type: none;
+        float: right;
+      }
+      a {
+        text-decoration: none;
+        color: midnightblue;
+      }
+      .nani {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      fieldset {
+        border-radius: 5px;
+        background-color: rgba(133, 144, 154, 0.118);
+      }
+      label,
+      input,
+      select {
+        margin-left: 15px;
+      }
+      button {
+        background-color: midnightblue;
+        color: white;
+        padding: 3px 20px;
+        width: 37%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        margin-left: 15px;
+        border-radius: 7px;
+        border: none;
+        border-bottom: 2px solid green;
+      }
+      body{
+        background-color: lightgrey;
+      }
+       h1 {
+        background-color: midnightblue;
+        text-align: center;
+        color: white;
+        padding: 15px;
+      }
+      .ftr {
+        background-color: midnightblue;
+        text-align: center;
+        color: white;
+        padding: 15px;
+        clear: both;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 class="footer">Register Nisse Digital</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="registration.html">Registration</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <main>
+        <div class="nani">
+          <form action="">
+            <fieldset>
+              <legend>Create Account</legend>
+              <p>
+                <label for="firstname">First Name:</label><br />
+                <input type="text" name="firstname" id="firstname" />
+              </p>
+              <p>
+                <label for="middlename">Middle Name:</label><br />
+                <input type="text" name="middlename" id="middlename" />
+              </p>
+              <p>
+                <label for="lastename">Last Name:</label><br />
+                <input type="text" name="lastename" id="lastename" />
+              </p>
+              <p>
+                <label for="email">Email:</label><br />
+                <input type="email" name="email" id="email" />
+              </p>
+              <p>
+                <label for="tel">Phone Number:</label><br />
+                <input type="tel" name="mobile" id="tel" />
+              </p>
+              <p>
+                <label>Gender:</label><br />
+                <select required>
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+              </p>
+              <p>
+                <label for="birth">date Of Birth:</label><br />
+                <input type="date" name="date" id="birth" />
+              </p>
+              <p>
+                <label for="username">Username:</label><br />
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  maxlength="12"
+                  minlength="8"
+                />
+              </p>
+              <p>
+                <label for="password">Password:</label><br />
+                <input type="password" name="password" id="password" min="6" />
+              </p>
+              <p>
+                <label for="Confirm">Confirm Pasword:</label><br />
+                <input type="password" name="Confirm" id="Confirm" min="6" />
+              </p>
+              <button type="submit" class="bttn">Register</button>
+            </fieldset>
+          </form>
+        </div>
+      </main>
+      <div class="ftr">
+        <footer>
+          <p>&copy; 2026 All rights reserved to Niise Digital</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

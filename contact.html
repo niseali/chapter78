@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+     * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      nav ul {
+        display: flex;
+        gap: 8px;
+        float: left;
+        list-style-type: none;
+        float: right;
+      }
+      a {
+        text-decoration: none;
+        color: midnightblue;
+      }
+      h1 {
+        background-color: midnightblue;
+        text-align: center;
+        color: white;
+        padding: 15px;
+      }
+      .ftr {
+        background-color: midnightblue;
+        text-align: center;
+        color: white;
+        padding: 15px;
+        clear: both;
+        margin-top: 30px;
+      }
+      h2{
+        color: midnightblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .contact-box{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+      }
+       button{
+        background-color: midnightblue;
+        color: white;
+        padding: 3px 20px;
+        width: 20%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+        border-radius: 7px;
+        border: none;
+        border-bottom: 4px solid green;
+       }
+</style>
+</head>
+<body>
+    <div>
+        <h1>Contact Nisse Digital</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+<div class="contact-box">
+<h2>Requirements:</h2>
+<br>
+<hr>
+<form>
+    <p>
+<label for=name">Enter Your Full Name:</label><br>
+<input type="text" placeholder="Full Name" required id="name" name="name"><br>
+</p>
+<p>
+<label for="email">Enter Your Email:</label><br>
+<input type="email" placeholder="Email Address" required id="email"><br>
+</p>
+<p>
+<label for="mobile">Enter Your Phone Number:</label><br>
+<input type="tel" placeholder="Phone Number" required id="mobile"><br>
+</p>
+<p>
+<label for="comment">Type Your comment:</label><br>
+<textarea rows="5" placeholder="Your Message" id="comment"></textarea><br>
+</p>
+
+<button type="submit" class="bttn">Send Message</button>
+
+</form>
+</div>
+ </main>
+    </div>
+     <div class="ftr">
+            <footer>
+                <p> &copy; 2026 All rights reserved to Niise Digital</p>
+            </footer>       
+        </div>
+</body>
+</html>
